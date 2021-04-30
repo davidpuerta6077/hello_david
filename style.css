@@ -1,0 +1,118 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(3, 3, 20);
+    color: rgb(244, 252, 255);
+    font-family: monospace;
+}
+
+.imagen:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.02);
+    filter: grayscale(50%);
+    transition: all .5s ease-in-out;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+}
+
+.imagen {
+    border-radius: 2%;
+}
+
+.align_center {
+    float: left;
+    width: 33.33333%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(244, 252, 255);
+}
+
+a:hover {
+    color: rgb(252, 252, 252);
+    text-decoration: none
+}
+
+a:visited {
+    color: rgb(224, 249, 255);
+    text-decoration: none
+}
+
+.navbar_item {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.hello {
+    font-size: calc(1em + 1vw)
+}
+
+.am_david {
+    font-size: calc(1.8em + 3vw);
+    min-width: 300px;
+    padding-left: 20px;
+    margin-top: -4rem;
+}
+
+.circle {
+    width: calc(270px + 1vw);
+    height: calc(270px + 1vw);
+    border-radius: 45%;
+    border: solid 2px rgb(255, 137, 239);
+    position: absolute;
+    opacity: 0.5;
+    align-items: center;
+    justify-items: center;
+}
+
+.circle2 {
+    width: calc(270px + 1vw);
+    height: calc(270px + 1vw);
+    border-radius: 35%;
+    border: solid 2px rgb(13, 69, 223);
+    position: absolute;
+    opacity: 0.3;
+    align-items: center;
+    justify-items: center;
+}
+
+.slideSoftware {
+    text-align: end;
+    text-justify: auto;
+    margin-right: -15px;
+}
+
+.portada {
+    margin: 15px;
+    padding: 5px;
+    margin-top: 5rem;
+}
+
+.shadow-navbar {
+    -webkit-box-shadow: -7px 59px 111px -37px rgba(0, 204, 255, 1);
+    -moz-box-shadow: -7px 59px 111px -37px rgba(0, 204, 255, 1);
+    box-shadow: -7px 59px 111px -37px rgba(0, 204, 255, 1);
+}
+
+.line {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(100deg, rgba(0, 0, 0, 1) 13%, rgba(9, 9, 121, 1) 45%, rgba(0, 176, 255, 0.4514180672268907) 78%);
+    height: 2px;
+    width: 108%;
+    margin-left: -5%;
+}
